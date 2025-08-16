@@ -1,0 +1,14 @@
+``javascript
+function navigate(section) {
+  const content = document.getElementById("main-content");
+  switch(section) {
+    case 'tap':
+      content.innerHTML = '<h2>Tap to Earn</h2><button onclick="tap()">Tap Me</button><p id="coin-count">Coins: 0</p>';
+      break;
+    case 'invite':
+      content.innerHTML = '<h2>Invite Friends</h2><p>Your referral link: <input value="https://t.me/LegendCoinBot?start=1234" readonly /></p>';
+      break;
+    case 'tasks':
+      content.innerHTML = '<h2>Tasks</h2><ul><li>Daily Login - ✅</li><li>Invite a Friend - ❌</li></ul>';
+      break;
+    case 'combat':,

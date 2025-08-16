@@ -1,0 +1,41 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+nav button {
+  flex: 1 1 45%;
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+nav button:hover {
+  background-color: #005fa3;
+}
+main {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LegendCoin</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>LegendCoin</h1>
+    </header>
+    <nav>
+      <button onclick="navigate('tap')">🔘 Tap to Earn</button>
+      <button onclick="navigate('invite')">🧑‍🤝‍🧑 Invite</button>
+      <button onclick="navigate('tasks')">📜 Tasks</button>
+      <button onclick="navigate('combat')">⚔️ Combat</button>
+      <button onclick="navigate('farming')">🚜 Farming</button>
+      <button onclick="navigate('nfts')">🖼️ NFTs</button>
+      <button onclick="navigate('stake')">🪙 Stake</button>
+      <button onclick="navigate('leaderboard')">🏆 Leaderboard</button>
+    </nav>
+    <main id="main-content">
+      <h2>Welcome to LegendCoin!</h2>
+      <p>Select a feature to begin.</p>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>,
